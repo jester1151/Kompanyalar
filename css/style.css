@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=PT+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.name {
+  margin-top: 120px;
+  margin-bottom: 90px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+.pages {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 71px 73px;
+  margin-bottom: 130px;
+}
+
+.page {
+  width: 20%;
+  align-items: center;
+  border-right: 1px solid #d7d7dd;
+}
+.page-four {
+  border: none;
+}
+.page-8 {
+  border: none;
+}
+.image {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.extra {
+  margin-top: 60px;
+}
+.extra5 {
+  margin-top: 37px;
+}
+.extra1 {
+  margin-top: 77px;
+}
+.extra3 {
+  margin-top: 38px;
+}
+.extra0 {
+  margin-top: 75px;
+}
+
+.title {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  color: #363738;
+  margin-top: 32px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #6b6b6c;
+}
